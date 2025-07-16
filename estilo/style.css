@@ -60,7 +60,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 4vh;
+    font-size: 3vh;
 
 }
 section >p {
@@ -77,6 +77,8 @@ section.imagem{
     color: white;
     box-shadow: inset 6px 6px 13px 0px black;
     background-attachment: fixed;
+
+    
 
 }
 
@@ -109,4 +111,19 @@ footer{
     padding: 10px;
 }
 
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    section {
+        font-size: 2.5vh;
+        padding-left: 15px;
+    }
 
+    header > h1 {
+        font-size: 6vh;
+    }
+
+    header > p {
+        font-size: 1.2em;
+    }
+
+}
