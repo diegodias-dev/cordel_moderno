@@ -27,7 +27,7 @@ html,body{
 }
 
 header {
-    background-color: green;
+    background-color: black;
     color: white;
     text-align: center;
     font-family: var(--fonte2);
@@ -115,7 +115,7 @@ footer{
 }
 
 /* Responsividade para telas menores */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     section {
         font-size: 1.2em;
         padding-left: 15px;
